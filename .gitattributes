@@ -1,0 +1,23 @@
+# Set default text file handling
+git config --global core.autocrlf true
+
+# Treat all files as text
+* text=auto
+
+# Ensure consistent line endings for source code
+*.js text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Images treated as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary

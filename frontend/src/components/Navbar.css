@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 64px;
+  background: #0f0f0f;
+  border-bottom: 1px solid #2e2e2e;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.brand-team {
+  color: #888;
+}
+
+.brand-name {
+  color: var(--yellow);
+  margin-left: 6px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-link {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: #f0f0f0;
+  background: #1c1c1c;
+}
+
+.nav-link.active {
+  color: var(--yellow);
+  background: rgba(139, 90, 43, 0.12);
+}
