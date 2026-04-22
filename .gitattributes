@@ -1,6 +1,3 @@
-# Set default text file handling
-git config --global core.autocrlf true
-
 # Treat all files as text
 * text=auto
 
