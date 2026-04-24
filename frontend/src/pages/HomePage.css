@@ -17,8 +17,8 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(139, 90, 43, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(139, 90, 43, 0.08) 1px, transparent 1px);
+    linear-gradient(rgba(138, 43, 226, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(138, 43, 226, 0.08) 1px, transparent 1px);
   background-size: 60px 60px;
 }
 
@@ -46,7 +46,7 @@
   letter-spacing: 8px;
   color: white;
   margin-bottom: 24px;
-  text-shadow: 0 0 80px rgba(139, 90, 43, 0.3);
+  text-shadow: 0 0 80px rgba(138, 43, 226, 0.3);
 }
 
 .hero-title span {

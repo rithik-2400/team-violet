@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar">
       <Link to="/" className="navbar-brand">
         <span className="brand-team">TEAM</span>
-        <span className="brand-name">BROWN</span>
+        <span className="brand-name">VIOLET</span>
       </Link>
       <div className="navbar-links">
         <Link to="/" className={location.pathname === '/' ? 'nav-link active' : 'nav-link'}>

@@ -11,10 +11,10 @@ function HomePage() {
         <div className="hero-content">
           <p className="hero-eyebrow">SRM Institute of Science and Technology</p>
           <h1 className="hero-title">
-            TEAM <span>BROWN</span>
+            TEAM <span>VIOLET</span>
           </h1>
           <p className="hero-subtitle">
-            Welcome to the TEAM BROWN Management Portal — Full Stack Development · CLAT-2 · 21CSS301T
+            Welcome to the TEAM VIOLET Management Portal — Full Stack Development · CLAT-2 · 21CSS301T
           </p>
           <div className="hero-buttons">
             <Link to="/add" className="btn btn-primary">

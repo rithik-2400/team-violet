@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap');
 
 :root {
-  /* Brown theme (accent) */
-  --brown: #8b5a2b;
-  --brown-dark: #5c3a1a;
-  --brown-light: #c18b5a;
+  /* Violet theme (accent) */
+  --violet: #8a2be2;
+  --violet-dark: #4b0082;
+  --violet-light: #b388ff;
 
   /* Backward-compatible variables used throughout the app */
-  --yellow: var(--brown);
-  --yellow-dark: var(--brown-dark);
-  --yellow-light: var(--brown-light);
+  --yellow: var(--violet);
+  --yellow-dark: var(--violet-dark);
+  --yellow-light: var(--violet-light);
 
   --black: #0a0a0a;
   --dark: #141414;
@@ -101,7 +101,7 @@ input, textarea, select {
 .btn-primary:hover {
   background: var(--yellow-light);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(139, 90, 43, 0.35);
+  box-shadow: 0 8px 24px rgba(138, 43, 226, 0.35);
 }
 
 .btn-outline {
@@ -139,7 +139,7 @@ input, textarea, select {
 .card:hover {
   border-color: var(--yellow);
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(139, 90, 43, 0.15);
+  box-shadow: 0 12px 32px rgba(138, 43, 226, 0.15);
 }
 
 /* Form styles */
@@ -209,7 +209,7 @@ input, textarea, select {
 }
 
 .alert-error {
-  background: rgba(139, 90, 43, 0.1);
-  border: 1px solid rgba(139, 90, 43, 0.4);
+  background: rgba(138, 43, 226, 0.1);
+  border: 1px solid rgba(138, 43, 226, 0.4);
   color: var(--yellow-light);
 }

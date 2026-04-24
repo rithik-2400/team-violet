@@ -51,5 +51,5 @@
 
 .nav-link.active {
   color: var(--yellow);
-  background: rgba(139, 90, 43, 0.12);
+  background: rgba(138, 43, 226, 0.12);
 }

@@ -1,7 +1,7 @@
 {
-  "name": "team-red-backend",
+  "name": "team-violet-backend",
   "version": "1.0.0",
-  "description": "Backend for Team Red Members Management App",
+  "description": "Backend for Team Violet Members Management App",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

@@ -51,8 +51,7 @@ function ViewMembersPage() {
         </div>
       ) : (
         <>
-          <p className="member-count">{members.length} team member{members.length !== 1 ? 's' : ''} registered</p>
-          <p className="member-count">{members.length} TEAM BROWN member{members.length !== 1 ? 's' : ''} registered</p>
+          <p className="member-count">{members.length} TEAM VIOLET member{members.length !== 1 ? 's' : ''} registered</p>
           <div className="members-grid">
             {members.map(member => (
               <div key={member._id} className="member-card card">
