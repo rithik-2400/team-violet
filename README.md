@@ -16,7 +16,7 @@ A full-stack web application to manage student team members. Users can add membe
 ## 🗂️ Project Structure
 
 ```
-TEAM-YELLOW/
+TEAM-VIOLET/
 ├── backend/
 │   ├── models/
 │   │   └── Member.js          # Mongoose schema
@@ -61,7 +61,7 @@ TEAM-YELLOW/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/TEAM-YELLOW.git
+git clone https://github.com/<your-username>/TEAM-VIOLET.git
 cd TEAM-YELLOW
 ```
 
