@@ -1,4 +1,4 @@
-# TEAM YELLOW – Student Team Members Management Application
+# TEAM VIOLET – Student Team Members Management Application
 
 > **Course:** 21CSS301T – Full Stack Development  
 > **Assessment:** CLAT-2 (Online Assessment)  
